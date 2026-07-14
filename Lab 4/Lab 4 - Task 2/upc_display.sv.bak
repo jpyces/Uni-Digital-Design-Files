@@ -1,0 +1,91 @@
+module upc_display(
+	input logic U, P, C,
+	output logic [6:0] m0, m1, m2, m3, m4, m5
+	);
+	
+	logic [2:0] UPC; 
+	assign UPC = {U, P, C};
+	
+	enum logic [6:0] {
+		S = 7'b0010010,
+		D = 7'b1000000,
+		F = 7'b0011000,
+		G = 7'b0000010,
+		T = 7'b1111000,
+		H = 7'b0001001,
+		i = 7'b1101111,
+		E = 7'b0011000,
+		A = 7'b1100000,
+		O = 7'b0000000,
+		NO = 7'b1111111,
+		L = 7'b1000111,
+		n = 7'b0111011,
+		}
+	
+	
+	always_comb
+		case(UPC)
+		
+			3'b000: begin
+				m0 = S;
+				m1 = i;
+				m2 = L;
+				m3 = NO;
+				m4 = NO;
+				m5 = NO;
+			end
+			
+			3'b001: begin
+				m0 = D;
+				m1 = E;
+				m2 = O;
+				m3 = NO;
+				m4 = NO;
+				m5 = NO;
+			end
+			
+			3'b011: begin
+				m0 = F;
+				m1 = A;
+				m2 = n;
+				m3 = NO;
+				m4 = NO;
+				m5 = NO;
+			end
+			
+			3'b100: begin
+				m0 = G;
+				m1 = O;
+				m2 = L;
+				m3 = D;
+				m4 = NO;
+				m5 = NO;
+			end
+			
+			3'b101: begin
+				m0 = T;
+				m1 = E;
+				m2 = E;
+				m3 = NO;
+				m4 = NO;
+				m5 = NO;
+			end
+			
+			3'b110: begin
+				m0 = H;
+				m1 = A;
+				m2 = T;
+				m3 = NO;
+				m4 = NO;
+				m5 = NO;
+			end
+			
+		endcase
+	
+endmodule
+
+module upc_display_tb (
+
+	);
+
+endmodule

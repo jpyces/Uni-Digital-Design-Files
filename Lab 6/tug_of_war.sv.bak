@@ -1,0 +1,7 @@
+module tug_of_war (
+
+	);
+endmodule
+
+module tug_of_war_tb();
+endmodule

@@ -1,0 +1,13 @@
+module state_display (
+	input logic rst,
+	input logic win,
+	output logic [6:0] display3, display4, display5
+);
+
+
+endmodule
+
+
+module state_display_tb();
+
+endmodule

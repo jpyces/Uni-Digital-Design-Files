@@ -1,0 +1,53 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:37:39 on Apr 29,2026
+# vlog -reportprogress 300 ./Nordstrom.sv 
+# -- Compiling module Nordstrom
+# -- Compiling module Nordstrom_tb
+# 
+# Top level modules:
+# 	Nordstrom_tb
+# End time: 14:37:39 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:37:39 on Apr 29,2026
+# vlog -reportprogress 300 ./pawn_shop.sv 
+# -- Compiling module pawn_shop
+# -- Compiling module pawn_shop_tb
+# 
+# Top level modules:
+# 	pawn_shop_tb
+# End time: 14:37:39 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:37:40 on Apr 29,2026
+# vlog -reportprogress 300 ./upc_display.sv 
+# -- Compiling module upc_display
+# -- Compiling module upc_display_tb
+# 
+# Top level modules:
+# 	upc_display_tb
+# End time: 14:37:40 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pawn_shop_tb 
+# Start time: 14:37:40 on Apr 29,2026
+# Loading sv_std.std
+# Loading work.pawn_shop_tb
+# Loading work.pawn_shop
+# Loading work.Nordstrom
+# Loading work.upc_display
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 18872
+#           Attempting to use alternate WLF file "./wlftj40xym".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj40xym
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./pawn_shop.sv(24)
+#    Time: 320 ps  Iteration: 0  Instance: /pawn_shop_tb
+# Break in Module pawn_shop_tb at ./pawn_shop.sv line 24
+# End time: 14:38:50 on Apr 29,2026, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2

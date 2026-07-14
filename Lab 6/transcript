@@ -1,0 +1,126 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab-tug_of_war.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./tug_of_war.sv 
+# -- Compiling module tug_of_war
+# -- Compiling module tug_of_war_tb
+# 
+# Top level modules:
+# 	tug_of_war_tb
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_tb
+# 
+# Top level modules:
+# 	normal_light_tb
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./pulse.sv 
+# -- Compiling module pulse
+# 
+# Top level modules:
+# 	pulse
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# 
+# Top level modules:
+# 	synch
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./user_input.sv 
+# -- Compiling module user_input
+# -- Compiling module user_input_tb
+# 
+# Top level modules:
+# 	user_input_tb
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./victory.sv 
+# -- Compiling module victory
+# -- Compiling module victory_tb
+# 
+# Top level modules:
+# 	victory_tb
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./normal_light_leftmost.sv 
+# -- Compiling module normal_light_leftmost
+# -- Compiling module normal_light_leftmost_tb
+# 
+# Top level modules:
+# 	normal_light_leftmost_tb
+# End time: 15:09:57 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:57 on May 13,2026
+# vlog -reportprogress 300 ./normal_light_rightmost.sv 
+# -- Compiling module normal_light_rightmost
+# -- Compiling module normal_light_rightmost_tb
+# 
+# Top level modules:
+# 	normal_light_rightmost_tb
+# End time: 15:09:58 on May 13,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:58 on May 13,2026
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_tb
+# 
+# Top level modules:
+# 	center_light_tb
+# End time: 15:09:58 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:58 on May 13,2026
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 15:09:58 on May 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work tug_of_war_tb 
+# Start time: 15:09:58 on May 13,2026
+# Loading sv_std.std
+# Loading work.tug_of_war_tb
+# Loading work.tug_of_war
+# Loading work.user_input
+# Loading work.synch
+# Loading work.pulse
+# Loading work.normal_light_rightmost
+# Loading work.normal_light_leftmost
+# Loading work.normal_light
+# Loading work.center_light
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 18872
+#           Attempting to use alternate WLF file "./wlftzwvs1n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzwvs1n
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./tug_of_war.sv(118)
+#    Time: 2390 ps  Iteration: 1  Instance: /tug_of_war_tb
+# Break in Module tug_of_war_tb at ./tug_of_war.sv line 118
+# End time: 15:17:17 on May 13,2026, Elapsed time: 0:07:19
+# Errors: 0, Warnings: 2

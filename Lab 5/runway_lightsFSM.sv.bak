@@ -1,0 +1,8 @@
+module runway_lightsFSM(
+	input logic [1:0] SW, 
+	input logic clk, reset,
+	output logic [2:0] LEDR
+	);
+	
+	enum logic [2:0] {A = 3'b101, B = 3'b010, C = 3'b001, D = 3'B100} ps, ns;
+endmodule

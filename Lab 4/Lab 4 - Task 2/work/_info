@@ -1,0 +1,242 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Classes/CSE 369/Lab 1
+vmux2_1
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1775684405
+!i10b 1
+!s100 74?hgcAkkOEz8n:0ml8J51
+In99m^mXZ1M4J=5c76=[Vf0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 mux2_1_sv_unit
+S1
+R0
+Z5 w1775331629
+Z6 8./mux2_1.sv
+Z7 F./mux2_1.sv
+L0 4
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1775684405.000000
+Z10 !s107 ./mux2_1.sv|
+Z11 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+Z12 tCvgOpt 0
+vmux2_1_tb
+R1
+R2
+!i10b 1
+!s100 TWcVj_XG2G^0cRP0g8AVA2
+Ij9EGLOl;onD;8TfVbf=8Y1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmux4_1
+R1
+R2
+!i10b 1
+!s100 O5iB]E:Ofg0CEgePc`_7j0
+ICb1_c1;0i4BnkV8GCmodK3
+R3
+Z13 !s105 mux4_1_sv_unit
+S1
+R0
+Z14 w1775331634
+Z15 8./mux4_1.sv
+Z16 F./mux4_1.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 ./mux4_1.sv|
+Z18 !s90 -reportprogress|300|./mux4_1.sv|
+!i113 1
+R12
+vmux4_1_tb
+R1
+R2
+!i10b 1
+!s100 4B5GJDT0NRZKzmLokgS7P2
+I0d7Yi8i`9A9Jhj[TXZUE71
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 16
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 1
+R12
+vNordstrom
+R1
+Z19 !s110 1777498659
+!i10b 1
+!s100 0SBC[bLPZ7CV[4QJ2m7ME2
+IednDB7AgMg1jGlAYEle`C2
+R3
+Z20 !s105 Nordstrom_sv_unit
+S1
+Z21 dZ:/Classes/CSE 369/Lab 4/Lab 4 - Task 2
+Z22 w1776823402
+Z23 8./Nordstrom.sv
+Z24 F./Nordstrom.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z25 !s108 1777498659.000000
+Z26 !s107 ./Nordstrom.sv|
+Z27 !s90 -reportprogress|300|./Nordstrom.sv|
+!i113 1
+R12
+n@nordstrom
+vNordstrom_tb
+R1
+R19
+!i10b 1
+!s100 7gF:]]Dn:DlO25<_]1A7o1
+IX=h^d7i_=IR9a[Ti<TTL;2
+R3
+R20
+S1
+R21
+R22
+R23
+R24
+L0 19
+R8
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R12
+n@nordstrom_tb
+vpawn_shop
+R1
+R19
+!i10b 1
+!s100 GDP9Cl1nDC96eNUNfBBoV1
+Im4fC_TLn3=WYmO<U6>QST0
+R3
+Z28 !s105 pawn_shop_sv_unit
+S1
+R21
+Z29 w1777430021
+Z30 8./pawn_shop.sv
+Z31 F./pawn_shop.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+Z32 !s107 ./pawn_shop.sv|
+Z33 !s90 -reportprogress|300|./pawn_shop.sv|
+!i113 1
+R12
+vpawn_shop_tb
+R1
+R19
+!i10b 1
+!s100 6E>c1_8>a`6a70j7^KGj_2
+I]?G@X@K85GciFUSAod`A00
+R3
+R28
+S1
+R21
+R29
+R30
+R31
+L0 13
+R8
+r1
+!s85 0
+31
+R25
+R32
+R33
+!i113 1
+R12
+vupc_display
+R1
+Z34 !s110 1777498660
+!i10b 1
+!s100 Z3j]c;4NA`VY1dFDEcHTA3
+IQcO`@jo@2hFhYJ]2Q@foJ2
+R3
+Z35 !s105 upc_display_sv_unit
+S1
+R21
+Z36 w1777431288
+Z37 8./upc_display.sv
+Z38 F./upc_display.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z39 !s108 1777498660.000000
+Z40 !s107 ./upc_display.sv|
+Z41 !s90 -reportprogress|300|./upc_display.sv|
+!i113 1
+R12
+vupc_display_tb
+R1
+R34
+!i10b 1
+!s100 Cg8Ra8dKk1R0D[RF5N[fI0
+IKb]gXiRO[kgbSJ03o0aaZ0
+R3
+R35
+S1
+R21
+R36
+R37
+R38
+L0 103
+R8
+r1
+!s85 0
+31
+R39
+R40
+R41
+!i113 1
+R12

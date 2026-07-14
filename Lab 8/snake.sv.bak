@@ -1,0 +1,36 @@
+module snake (
+	input logic endGame, eaten, game_rst, game_tick,
+	input logic [3:0] dir,
+	output logic [3:0] next_x, next_y,
+	output logic [7:0] snake_array [0:255],
+	output logic [7:0] snake_len
+);
+	always_comb begin
+		
+		if (eaten == 1) begin 
+			snake_len = snake_len + 1;
+		end
+		
+		
+	end
+	
+	always_ff begin
+		if (game_rst) begin 
+			snake_array <= '{
+					0: 8'b1000_1000,
+					1: 8'b0111_1000,
+					2: 8'b0110_1000,
+					default: 8'h00
+				};
+			snake_len <= 3;
+		end
+		
+		else begin
+		end
+	end
+endmodule
+
+module snake_tb();
+
+endmodule
+

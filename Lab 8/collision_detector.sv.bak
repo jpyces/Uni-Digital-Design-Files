@@ -1,0 +1,11 @@
+module collision_detector (
+	logic endGame,
+	logic [7:0] snake_array [0:255],
+	
+);
+
+endmodule
+
+module collision_detector_tb();
+
+endmodule

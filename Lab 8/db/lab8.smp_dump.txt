@@ -1,0 +1,5 @@
+
+State Machine - |lab8|apple:ap|ps
+Name ps~2 
+ps.IDLE 0 
+ps.SEARCHING 1 

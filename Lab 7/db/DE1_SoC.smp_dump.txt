@@ -1,0 +1,6 @@
+
+State Machine - |tug_of_war|victory:winner_detector|ps
+Name ps~4 ps~3 ps~2 
+ps.ZERO 0 0 0 
+ps.p1w 1 1 0 
+ps.p2w 0 1 1 

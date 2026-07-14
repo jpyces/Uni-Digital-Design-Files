@@ -1,0 +1,38 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:35 on Apr 22,2026
+# vlog -reportprogress 300 ./lab3.sv 
+# -- Compiling module lab3
+# 
+# Top level modules:
+# 	lab3
+# End time: 14:58:35 on Apr 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:35 on Apr 22,2026
+# vlog -reportprogress 300 ./Nordstrom.sv 
+# -- Compiling module Nordstrom
+# -- Compiling module Nordstrom_tb
+# 
+# Top level modules:
+# 	Nordstrom_tb
+# End time: 14:58:35 on Apr 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work Nordstrom_tb 
+# Start time: 14:58:35 on Apr 22,2026
+# Loading sv_std.std
+# Loading work.Nordstrom_tb
+# Loading work.Nordstrom
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 18872
+#           Attempting to use alternate WLF file "./wlftgi38aj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgi38aj
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./Nordstrom.sv(36)
+#    Time: 400 ps  Iteration: 0  Instance: /Nordstrom_tb
+# Break in Module Nordstrom_tb at ./Nordstrom.sv line 36

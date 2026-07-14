@@ -1,0 +1,24 @@
+module lfsr9bit(
+	input logic clk, rst,
+	output logic [8:0] Q
+);
+
+	always_ff @(posedge clk) begin
+		if (rst)
+			Q <= 9'b111111111;
+		else begin
+			Q[8] <= Q[7];
+			Q[7] <= Q[6];
+			Q[6] <= Q[5];
+			Q[5] <= Q[4];
+			Q[4] <= Q[3];
+			Q[3] <= Q[2];
+			Q[2] <= Q[1];
+			Q[1] <= Q[0];
+			Q[0] <= ~(Q[8] ^ Q[4])
+			
+		end
+			
+	end
+	
+endmodule

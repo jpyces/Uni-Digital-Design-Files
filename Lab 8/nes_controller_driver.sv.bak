@@ -1,0 +1,117 @@
+module nes_controller_driver (
+    input  logic       clk,       
+    input  logic       rst,
+    input  logic       data_in,   
+    output logic       latch_out, // Changed from 'latch' to avoid keyword error
+    output logic [7:0] buttons    
+);
+
+    logic [3:0] state_reg = 0;
+    logic [7:0] shift_reg = 8'hFF;
+    logic [7:0] buttons_reg = 8'hFF;
+
+    assign buttons = buttons_reg;
+
+    always_ff @(posedge clk or posedge rst) begin
+        if (rst) begin
+            state_reg   <= 0;
+            shift_reg   <= 8'hFF;
+            buttons_reg <= 8'hFF;
+            latch_out   <= 0;
+        end else begin
+            case (state_reg)
+                0: begin
+                    latch_out <= 1;
+                    state_reg <= state_reg + 1;
+                end
+                
+                1: begin
+                    latch_out   <= 0;
+                    shift_reg[0]<= data_in;
+                    state_reg   <= state_reg + 1;
+                end
+                
+                2, 3, 4, 5, 6, 7, 8: begin
+                    shift_reg <= {data_in, shift_reg[7:1]};
+                    state_reg <= state_reg + 1;
+                end
+                
+                9: begin
+                    buttons_reg <= shift_reg;
+                    state_reg   <= state_reg + 1;
+                end
+                
+                default: begin
+                    state_reg <= state_reg + 1;
+                end
+            endcase
+        end
+    end
+endmodule
+
+module nes_controller_driver_tb();
+    logic       clk;
+    logic       rst;
+    logic       data_in;
+    logic       latch_out;
+    logic [7:0] buttons;
+
+    // Instantiate the Device Under Test (DUT)
+    nes_controller_driver dut (
+        .clk(clk),
+        .rst(rst),
+        .data_in(data_in),
+        .latch_out(latch_out),
+        .buttons(buttons)
+    );
+
+    // Generate a clock signal (~50kHz simulation clock)
+    always #10000 clk = ~clk; 
+
+    // Simulation Task to mimic sequential controller data streaming
+    // NES order: A, B, Select, Start, Up, Down, Left, Right
+    // 0 = Pressed, 1 = Not Pressed
+    task send_nes_packet(input logic [7:0] packet);
+        begin
+            for (int i = 0; i < 8; i++) begin
+                data_in = packet[i];
+                @(posedge clk);
+            end
+            data_in = 1'b1; // Idle state for data line
+        end
+    endtask
+
+    initial begin
+        // Initialize signals
+        clk     = 0;
+        rst     = 1;
+        data_in = 1'b1;
+        
+        #40000;
+        rst = 0; // Release reset
+        
+        // Wait for the driver to initiate its first Latch cycle
+        @(posedge latch_out);
+        @(negedge latch_out); // First bit (A) is sample-ready when latch drops
+        
+        // Test Case: Player is pressing 'A' (bit 0) and 'UP' (bit 4)
+        // Array index representation of packet: 8'b1110_1110 
+        // (Bits 0 and 4 are 0, meaning active/pressed)
+        $display("Simulating Button Press: A and UP");
+        send_nes_packet(8'b1110_1110);
+        
+        // Wait for the state machine to hit state 9 and update the output register
+        repeat(3) @(posedge clk);
+        
+        // Verify results
+        if (buttons == 8'b1110_1110) begin
+            $display("PASS: Controller driver successfully captured parallel button packet!");
+            $display("Decoded Buttons Output: %b", buttons);
+        end else begin
+            $display("FAIL: Expected 11101110, got %b", buttons);
+        end
+
+        #100000;
+        $stop;
+    end
+endmodule

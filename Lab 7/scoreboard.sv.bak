@@ -1,0 +1,87 @@
+module scoreboard(
+    input  logic clk,
+    input  logic rst,
+    input  logic p1win,
+    input  logic p2win,
+    output logic [6:0] HEX0,
+    output logic [6:0] HEX1,
+    output logic playfield_rst
+);
+
+    logic [2:0] score_p1, score_p2;
+    logic p1win_prev, p2win_prev;
+    logic p1win_pulse, p2win_pulse;
+    
+    always_ff @(posedge clk) begin
+        p1win_prev <= p1win;
+        p2win_prev <= p2win;
+    end
+    
+    assign p1win_pulse = p1win & ~p1win_prev;
+    assign p2win_pulse = p2win & ~p2win_prev;
+
+    counter3bit c1(.clk(clk), .rst(rst), .win(p1win_pulse), .count(score_p1));
+    counter3bit c2(.clk(clk), .rst(rst), .win(p2win_pulse), .count(score_p2));
+
+    seg7_decoder d1(.num(score_p1), .seg(HEX0));
+    seg7_decoder d2(.num(score_p2), .seg(HEX1));
+
+    assign playfield_rst = rst | p1win_pulse | p2win_pulse;
+
+endmodule
+
+module scoreboard_tb();
+    logic clk, rst, p1win, p2win;
+    logic [6:0] HEX0, HEX1;
+    logic playfield_rst;
+
+    scoreboard dut(
+        .clk(clk), .rst(rst),
+        .p1win(p1win), .p2win(p2win),
+        .HEX0(HEX0), .HEX1(HEX1),
+        .playfield_rst(playfield_rst)
+    );
+
+    parameter CLOCK_PERIOD = 100;
+    initial begin
+        clk <= 0;
+        forever #(CLOCK_PERIOD/2) clk <= ~clk;
+    end
+
+    initial begin
+        // Initialize
+        rst <= 1; p1win <= 0; p2win <= 0; @(posedge clk);
+                                           @(posedge clk);
+        rst <= 0;                          @(posedge clk);
+                                           @(posedge clk);
+
+        // Player 1 wins 3 times
+        repeat(3) begin
+            p1win <= 1; @(posedge clk);
+            p1win <= 0; @(posedge clk);
+                        @(posedge clk); // let pulse settle
+            $display("P1 score display: %b | P2 score display: %b", HEX0, HEX1);
+        end
+
+        // Player 2 wins 2 times
+        repeat(2) begin
+            p2win <= 1; @(posedge clk);
+            p2win <= 0; @(posedge clk);
+                        @(posedge clk);
+            $display("P1 score display: %b | P2 score display: %b", HEX0, HEX1);
+        end
+
+        // Test playfield_rst fires on win
+        p1win <= 1; @(posedge clk);
+        $display("playfield_rst during win = %b (should be 1)", playfield_rst);
+        p1win <= 0; @(posedge clk);
+        $display("playfield_rst after win  = %b (should be 0)", playfield_rst);
+
+        // Full reset - scores should go to 0
+        rst <= 1; @(posedge clk);
+        $display("After full rst: HEX0=%b HEX1=%b", HEX0, HEX1);
+        rst <= 0; @(posedge clk);
+
+        $stop;
+    end
+endmodule

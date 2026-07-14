@@ -1,0 +1,8 @@
+module runway_lightsFSM(
+	input logic [1:0] SW, 
+	input logic clk, reset,
+	output logic [2:0] LEDR
+	);
+	
+	
+endmodule

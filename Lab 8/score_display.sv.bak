@@ -1,0 +1,23 @@
+module score_display (
+	input logic [7:0] snake_len,
+	input logic game_rst, clk, 
+	output logic [7:0] display0, display1, display2
+);
+	
+	logic [7:0] score;
+	assign score = snake_len - 8'd2;
+	
+	logic [3:0] hundreds, tens, ones;
+	assign hundreds = score / 100;
+	assign tens = (score % 100) / 10;
+	assign ones = score % 10;
+	
+	hex_decoder d2(.data(hundreds), .display(display2));
+	hex_decoder d1(.data(tens), .display(display1));
+	hex_decoder d0(.data(ones), .display(display0));
+	
+endmodule
+
+module counter_tb ();
+
+endmodule

@@ -1,0 +1,83 @@
+|double_seg7
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+HEX0[0] << seg7:seg1.leds
+HEX0[1] << seg7:seg1.leds
+HEX0[2] << seg7:seg1.leds
+HEX0[3] << seg7:seg1.leds
+HEX0[4] << seg7:seg1.leds
+HEX0[5] << seg7:seg1.leds
+HEX0[6] << seg7:seg1.leds
+HEX1[0] << seg7:seg2.leds
+HEX1[1] << seg7:seg2.leds
+HEX1[2] << seg7:seg2.leds
+HEX1[3] << seg7:seg2.leds
+HEX1[4] << seg7:seg2.leds
+HEX1[5] << seg7:seg2.leds
+HEX1[6] << seg7:seg2.leds
+
+
+|double_seg7|seg7:seg1
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Decoder0.IN2
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Decoder0.IN1
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Decoder0.IN0
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+leds[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|double_seg7|seg7:seg2
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Decoder0.IN2
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Decoder0.IN1
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Decoder0.IN0
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+leds[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

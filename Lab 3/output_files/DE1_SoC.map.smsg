@@ -1,0 +1,2 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10034): Output port "LEDR[8..1]" at lab3.sv(7) has no driver File: Z:/Classes/CSE 369/Lab 3/lab3.sv Line: 7

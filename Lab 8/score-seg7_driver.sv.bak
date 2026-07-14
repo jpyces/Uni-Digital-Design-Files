@@ -1,0 +1,12 @@
+module score-seg7_driver (
+	input logic [7:0] snake_len,
+	input logic game_rst
+	
+);
+
+	
+endmodule
+
+module counter_tb ();
+
+endmodule

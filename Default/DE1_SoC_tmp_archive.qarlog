@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	Z:/Classes/CSE 369/Default/DE1_SoC_tmp_archive.qarlog
+
+Archive:	Z:/Classes/CSE 369/Default/DE1_SoC_tmp_archive.qar
+Date:		Wed May 27 13:44:34 2026
+Quartus Prime		17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+Z:/Classes/CSE 369/Default/DE1_SoC.qpf
+Z:/Classes/CSE 369/Default/DE1_SoC.qsf
+Z:/Classes/CSE 369/Default/DE1_SoC.sdc
+c:/intelfpga_lite/17.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed May 27 13:44:35 2026
+Source archive file:	Z:/Classes/CSE 369/Default/DE1_SoC_tmp_archive.qar
+Archive was extracted into	Z:/Classes/CSE 369/Lab 8/
+		 - successfully.

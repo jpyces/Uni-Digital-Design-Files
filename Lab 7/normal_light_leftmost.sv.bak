@@ -1,0 +1,10 @@
+module normal_light_leftmost (
+
+	);
+
+endmodule
+
+module normal_light_leftmost_tb();
+
+endmodule
+

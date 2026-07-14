@@ -1,0 +1,30 @@
+module double_seg7 (
+	input logic [7:0] switches, 
+	output logic [6:0] HEX0, 
+	output logic [6:0] HEX1
+	);
+	
+	seg7 seg1(.bcd(switches[3:0]), .leds(HEX0));
+	seg7 seg2(.bcd(switches[7:4]), .leds(HEX1));
+
+	
+
+endmodule
+
+module double_seg7_tb ();
+
+		// Necessary ports
+		logic [7:0] switches; 
+		logic [6:0] HEX0, HEX1;
+		
+		// DUT Instantiation
+		double_seg7 dut (.*);
+		
+		int i, j;
+		initial begin
+			for (i = 0; i < 256; i++) begin 
+				switches = i; #20;
+			end
+			$stop;
+		end
+endmodule

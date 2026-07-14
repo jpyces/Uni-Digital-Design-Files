@@ -1,0 +1,12 @@
+module game_tick_gen #(parameter SPEED = 21'h1FFFFF)(
+    input logic clk, rst,
+    output logic game_tick
+);
+    logic [20:0] count;
+    assign game_tick = (count == SPEED);
+    
+    always_ff @(posedge clk) begin
+        if (rst) count <= 0;
+        else count <= count + 1;
+    end
+endmodule

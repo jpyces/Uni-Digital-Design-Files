@@ -1,0 +1,2 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10273): Verilog HDL warning at seg7.sv(19): extended using "x" or "z" File: Z:/Classes/CSE 369/Lab 4 2/seg7.sv Line: 19

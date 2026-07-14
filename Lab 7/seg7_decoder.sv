@@ -1,0 +1,34 @@
+module seg7_decoder (
+	input logic [2:0] num,
+	output logic [6:0] display
+);
+
+	always_comb begin
+		case(num)
+			3'd0: display = 7'b1111111;
+			3'd1:	display = 7'b1111001;
+			3'd2: display = 7'b0100100;
+			3'd3: display = 7'b0110000;
+			3'd4: display = 7'b0011001;
+			3'd5: display = 7'b0010010;
+			3'd6: display = 7'b0000010;
+			3'd7: display = 7'b1111000;
+			default: display = 7'b1111111;
+		endcase
+	end
+endmodule
+
+module seg7_decoder_tb();
+    logic [2:0] num;
+    logic [6:0] display;
+
+    seg7_decoder dut(.num(num), .display(display));
+
+    initial begin
+        // Walk through all values 0-7
+        for (int i = 0; i < 8; i++) begin
+            num = i; #10;
+        end
+        $stop;
+    end
+endmodule

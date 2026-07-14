@@ -1,0 +1,44 @@
+module game_state (
+	input	logic suicide, rst,
+	input logic	[7:0]	snake_len,
+	output	logic	game_rst, endGame, win
+);
+
+	always_comb begin
+		win = 0;
+		suicide = 0;
+		endGame = 0;
+		
+		if (rst == 0)	begin
+			game_rst = 0;
+		end
+		else begin
+			game_rst = 1;	endGame = 0; win = 0;
+		
+		if (suicide == 1)	begin
+			endGame = 1;
+		end
+		
+		if (snake_len == 253) endGame = 1;	win = 1;
+	end
+	
+	
+endmodule
+
+module game_state_tb ();
+	logic suicide, rst;
+	logic	[7:0]	snake_len;
+	logic	game_rst, endGame, win;
+	
+	game_state state_manager (.*);
+	
+	initial begin
+		rst = 1; #10;
+		rst = 0; #10;
+		suicide = 1; #10;
+		suicide = 0; #10;
+		snake_len = 253; #10;
+	
+		$stop;
+	end
+endmodule

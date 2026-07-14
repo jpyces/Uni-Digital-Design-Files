@@ -1,0 +1,9 @@
+module victory(
+
+	);
+
+endmodule
+
+module victory_tb();
+
+endmodule

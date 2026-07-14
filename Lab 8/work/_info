@@ -1,0 +1,845 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Classes/CSE 369/Lab 8
+vapple
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1780778525
+!i10b 1
+!s100 >h<c4zmZ8dh6SeI8T?MMd2
+I?nRL`URzjMJJ0I2GmUh9l3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 apple_sv_unit
+S1
+R0
+Z5 w1780698888
+Z6 8./apple.sv
+Z7 F./apple.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1780778525.000000
+Z10 !s107 ./apple.sv|
+Z11 !s90 -reportprogress|300|./apple.sv|
+!i113 1
+Z12 tCvgOpt 0
+vapple_tb
+R1
+R2
+!i10b 1
+!s100 XGGj80zFMZ^3D=X[bQi5o1
+I<Y5<PD__O^g54^XEWnO[?0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 72
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vclock_divider
+R1
+!s110 1780543377
+!i10b 1
+!s100 ;;cR1iFKl;SYA5AjF[83c3
+Ic]7KP2VdgN8VCEKP[BMEA0
+R3
+!s105 clock_divider_sv_unit
+S1
+R0
+w1778029570
+8./clock_divider.sv
+F./clock_divider.sv
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1780543377.000000
+!s107 ./clock_divider.sv|
+!s90 -reportprogress|300|./clock_divider.sv|
+!i113 1
+R12
+vcollision_detector
+R1
+Z13 !s110 1780730527
+!i10b 1
+!s100 D2=19Dh^K@I9[URG2KaDJ0
+IPiC_cbX@b5N;K3V9bnANe2
+R3
+Z14 !s105 collision_detector_sv_unit
+S1
+R0
+Z15 w1780544278
+Z16 8./collision_detector.sv
+Z17 F./collision_detector.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z18 !s108 1780730526.000000
+Z19 !s107 ./collision_detector.sv|
+Z20 !s90 -reportprogress|300|./collision_detector.sv|
+!i113 1
+R12
+vcollision_detector_tb
+R1
+R13
+!i10b 1
+!s100 TM4n4QO4>BlOg9GbAY8?<1
+INm^KdLBYML[>ORb78Vi2U0
+R3
+R14
+S1
+R0
+R15
+R16
+R17
+L0 49
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R12
+vgame_state
+R1
+Z21 !s110 1780778524
+!i10b 1
+!s100 L[]Eig@l=?Ka5_aVR9Q0>1
+Id`ngM@B1;FG?BNV7IWYZN2
+R3
+Z22 !s105 game_state_sv_unit
+S1
+R0
+Z23 w1780547386
+Z24 8./game_state.sv
+Z25 F./game_state.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z26 !s108 1780778524.000000
+Z27 !s107 ./game_state.sv|
+Z28 !s90 -reportprogress|300|./game_state.sv|
+!i113 1
+R12
+vgame_state_tb
+R1
+R21
+!i10b 1
+!s100 7T4[eX?FmoZCm[aXAATA73
+IY5RQDRnD<4Too9c8S_if53
+R3
+R22
+S1
+R0
+R23
+R24
+R25
+L0 67
+R8
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R12
+vgame_tick_gen
+R1
+R2
+!i10b 1
+!s100 4NT4zce9Z_M>Bcma0kPN@0
+I9_50j?:oeM1kbP<<g7=6^3
+R3
+Z29 !s105 game_tick_gen_sv_unit
+S1
+R0
+Z30 w1780698833
+Z31 8./game_tick_gen.sv
+Z32 F./game_tick_gen.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z33 !s107 ./game_tick_gen.sv|
+Z34 !s90 -reportprogress|300|./game_tick_gen.sv|
+!i113 1
+R12
+vgame_tick_gen_tb
+R1
+R2
+!i10b 1
+!s100 i>LldfQP[cnFa3F85_K?N2
+IPk6UXGM2@aD56Gh:S<iL>1
+R3
+R29
+S1
+R0
+R30
+R31
+R32
+Z35 L0 23
+R8
+r1
+!s85 0
+31
+R9
+R33
+R34
+!i113 1
+R12
+vhex_decoder
+R1
+Z36 !s110 1780778527
+!i10b 1
+!s100 inFQzVCF_Cz5F^fnk`Md23
+I5>PS@cD[W5Wz?b@jbnSj;3
+R3
+Z37 !s105 hex_decoder_sv_unit
+S1
+R0
+Z38 w1780737021
+Z39 8./hex_decoder.sv
+Z40 F./hex_decoder.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z41 !s108 1780778526.000000
+Z42 !s107 ./hex_decoder.sv|
+Z43 !s90 -reportprogress|300|./hex_decoder.sv|
+!i113 1
+R12
+vhex_decoder_tb
+R1
+R36
+!i10b 1
+!s100 njgHX=NA]MY5dL473lgoC0
+IP_f[TbQ0d0<Ae0D_Z7DhW0
+R3
+R37
+S1
+R0
+R38
+R39
+R40
+R35
+R8
+r1
+!s85 0
+31
+R41
+R42
+R43
+!i113 1
+R12
+vlab8
+R1
+R21
+!i10b 1
+!s100 j<fHB35;TJNlQcE>?BQ8H3
+I1R<boS=SA``_iPLT<GK_z3
+R3
+Z44 !s105 lab8_sv_unit
+S1
+R0
+Z45 w1780777526
+Z46 8./lab8.sv
+Z47 F./lab8.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R26
+Z48 !s107 ./lab8.sv|
+Z49 !s90 -reportprogress|300|./lab8.sv|
+!i113 1
+R12
+vlab8_tb
+R1
+R21
+!i10b 1
+!s100 :j2m1jVh3ZM<R2FWY>f_32
+I7SlSH::BQfW[XG`ZCTk[F1
+R3
+R44
+S1
+R0
+R45
+R46
+R47
+Z50 L0 229
+R8
+r1
+!s85 0
+31
+R26
+R48
+R49
+!i113 1
+R12
+vLED_Board_Driver
+R1
+R2
+!i10b 1
+!s100 6QVYhhHc:@S`7N@e8H0d<2
+I9@WG4g;UE`nj6mLVT7zMW2
+R3
+Z51 !s105 LED_Board_Driver_sv_unit
+S1
+R0
+Z52 w1780776558
+Z53 8./LED_Board_Driver.sv
+Z54 F./LED_Board_Driver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z55 !s107 ./LED_Board_Driver.sv|
+Z56 !s90 -reportprogress|300|./LED_Board_Driver.sv|
+!i113 1
+R12
+n@l@e@d_@board_@driver
+vLED_Board_Driver_tb
+R1
+R2
+!i10b 1
+!s100 W<@DJXXeiQYDdoC<IPS4`3
+IkmIP63c^nmd3L2LcWzQ>k1
+R3
+R51
+S1
+R0
+R52
+R53
+R54
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R55
+R56
+!i113 1
+R12
+n@l@e@d_@board_@driver_tb
+vLED_test
+R1
+Z57 !s110 1780122540
+!i10b 1
+!s100 8QIj0zo4RJ:A<TTi`4[L`0
+IG7X;L94V<FXA25hIA:zPV1
+R3
+Z58 !s105 LED_test_sv_unit
+S1
+R0
+Z59 w1573577770
+Z60 8./LED_test.sv
+Z61 F./LED_test.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z62 !s108 1780122540.000000
+Z63 !s107 ./LED_test.sv|
+Z64 !s90 -reportprogress|300|./LED_test.sv|
+!i113 1
+R12
+n@l@e@d_test
+vLED_test_testbench
+R1
+R57
+!i10b 1
+!s100 H]j>6?glo;Tf:1ROoJ1zg3
+IO4mKNX6?0Z4@@AU0U46Ab0
+R3
+R58
+S1
+R0
+R59
+R60
+R61
+L0 60
+R8
+r1
+!s85 0
+31
+R62
+R63
+R64
+!i113 1
+R12
+n@l@e@d_test_testbench
+vLEDDriver
+R1
+R21
+!i10b 1
+!s100 JiAHBkK@6c_;:YN4[>j7<3
+ICW^9z;F45c1OgTmP7Ij6d3
+R3
+Z65 !s105 LEDDriver_sv_unit
+S1
+R0
+R59
+Z66 8./LEDDriver.sv
+Z67 F./LEDDriver.sv
+Z68 L0 13
+R8
+r1
+!s85 0
+31
+R26
+Z69 !s107 ./LEDDriver.sv|
+Z70 !s90 -reportprogress|300|./LEDDriver.sv|
+!i113 1
+R12
+n@l@e@d@driver
+vLEDDriver_Test
+R1
+R21
+!i10b 1
+!s100 7d5<0Kb7WnMbAASRRbV<P3
+I24z]WBdkFVd33ESQ4Ae<Y3
+R3
+R65
+S1
+R0
+R59
+R66
+R67
+L0 34
+R8
+r1
+!s85 0
+31
+R26
+R69
+R70
+!i113 1
+R12
+n@l@e@d@driver_@test
+vLEDDriver_TestPhysical
+R1
+R21
+!i10b 1
+!s100 WjU?EdQdFmD<AcS828m012
+ISWgN:gM:a;Zh2KTzI;7192
+R3
+R65
+S1
+R0
+R59
+R66
+R67
+L0 71
+R8
+r1
+!s85 0
+31
+R26
+R69
+R70
+!i113 1
+R12
+n@l@e@d@driver_@test@physical
+vlfsr8bit
+R1
+Z71 !s110 1780778526
+!i10b 1
+!s100 C4?D;ki^d:zboVL]UcKao0
+I7Gi3g3QM^d]]]BDicUKo61
+R3
+Z72 !s105 lfsr8bit_sv_unit
+S1
+R0
+Z73 w1780773596
+Z74 8./lfsr8bit.sv
+Z75 F./lfsr8bit.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R41
+Z76 !s107 ./lfsr8bit.sv|
+Z77 !s90 -reportprogress|300|./lfsr8bit.sv|
+!i113 1
+R12
+vlfsr8bit_tb
+R1
+R71
+!i10b 1
+!s100 PVcS_oBl>`=g4`04:5fRo0
+I4kA3e[4eCH@YHCC2`67eG2
+R3
+R72
+S1
+R0
+R73
+R74
+R75
+L0 25
+R8
+r1
+!s85 0
+31
+R41
+R76
+R77
+!i113 1
+R12
+vnes_controller_driver
+R1
+R71
+!i10b 1
+!s100 cbdo2h]VQA5FSAEgMIB8Q2
+IRkH4VX;JGA_S;:Xdmz7`o2
+R3
+Z78 !s105 nes_controller_driver_sv_unit
+S1
+R0
+Z79 w1780614117
+Z80 8./nes_controller_driver.sv
+Z81 F./nes_controller_driver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R41
+Z82 !s107 ./nes_controller_driver.sv|
+Z83 !s90 -reportprogress|300|./nes_controller_driver.sv|
+!i113 1
+R12
+vnes_controller_driver_tb
+R1
+R71
+!i10b 1
+!s100 o8ND3eK5k<WC@CB@96AlS1
+IJlGP@zN9ez;of?j3IddDo2
+R3
+R78
+S1
+R0
+R79
+R80
+R81
+L0 150
+R8
+r1
+!s85 0
+31
+R41
+R82
+R83
+!i113 1
+R12
+vpulse
+R1
+Z84 !s110 1780774840
+!i10b 1
+!s100 NM<GF7lJ27cm26cC6N0dO2
+I1[mYfUP^_mcnXH=n7KOZk0
+R3
+Z85 !s105 pulse_sv_unit
+S1
+R0
+Z86 w1780524535
+Z87 8./pulse.sv
+Z88 F./pulse.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z89 !s108 1780774840.000000
+Z90 !s107 ./pulse.sv|
+Z91 !s90 -reportprogress|300|./pulse.sv|
+!i113 1
+R12
+vpulse_tb
+R1
+R84
+!i10b 1
+!s100 ZDAZFIVFHoKH69^Ad20^X3
+IjIU2dBK8]?0eBAN7>Zk]c1
+R3
+R85
+S1
+R0
+R86
+R87
+R88
+L0 14
+R8
+r1
+!s85 0
+31
+R89
+R90
+R91
+!i113 1
+R12
+vscore_display
+R1
+R71
+!i10b 1
+!s100 LRQB9F9^[i<X^AA29IzCf0
+Ilm8W4IQFUmo>0ZChkmN[_1
+R3
+Z92 !s105 score_display_sv_unit
+S1
+R0
+Z93 w1780698912
+Z94 8./score_display.sv
+Z95 F./score_display.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R41
+Z96 !s107 ./score_display.sv|
+Z97 !s90 -reportprogress|300|./score_display.sv|
+!i113 1
+R12
+vscore_display_tb
+R1
+R71
+!i10b 1
+!s100 mP;<Jm`8jMZ2g3Qj@5S0=3
+IF^hVf:D]_c[XgO:gjRT?62
+R3
+R92
+S1
+R0
+R93
+R94
+R95
+L0 20
+R8
+r1
+!s85 0
+31
+R41
+R96
+R97
+!i113 1
+R12
+vsnake
+R1
+R2
+!i10b 1
+!s100 P464?c88TOzl5Z92OF3692
+ILaJLT5edNl<f8`SIY^Bf[2
+R3
+Z98 !s105 snake_sv_unit
+S1
+R0
+Z99 w1780731205
+Z100 8./snake.sv
+Z101 F./snake.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R26
+Z102 !s107 ./snake.sv|
+Z103 !s90 -reportprogress|300|./snake.sv|
+!i113 1
+R12
+vsnake_game
+R1
+Z104 !s110 1780725709
+!i10b 1
+!s100 RMO<WT@EkYJhfMfHzBVmi0
+IRX53:[hU?JKQz5D4>5KLY0
+R3
+Z105 !s105 snake_game_sv_unit
+S1
+R0
+Z106 w1780725691
+Z107 8./snake_game.sv
+Z108 F./snake_game.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z109 !s108 1780725709.000000
+Z110 !s107 ./snake_game.sv|
+Z111 !s90 -reportprogress|300|./snake_game.sv|
+!i113 1
+R12
+vsnake_game_tb
+R1
+R104
+!i10b 1
+!s100 7d>[L]@`zV>c;A@alN17`2
+IbcOU<L12VIc_Fj>9>J^df2
+R3
+R105
+S1
+R0
+R106
+R107
+R108
+R50
+R8
+r1
+!s85 0
+31
+R109
+R110
+R111
+!i113 1
+R12
+vsnake_tb
+R1
+R2
+!i10b 1
+!s100 E348J6=QB1nE8foXXH^8;2
+ImK^e]@oTlGiRH4m7>?KFn3
+R3
+R98
+S1
+R0
+R99
+R100
+R101
+L0 92
+R8
+r1
+!s85 0
+31
+R26
+R102
+R103
+!i113 1
+R12
+vsynch
+R1
+R71
+!i10b 1
+!s100 MbObg9gg5RcaRz@mUKnWP1
+I8:n1^nPaP;eaQj`ffIEl12
+R3
+Z112 !s105 synch_sv_unit
+S1
+R0
+Z113 w1780524497
+Z114 8./synch.sv
+Z115 F./synch.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z116 !s107 ./synch.sv|
+Z117 !s90 -reportprogress|300|./synch.sv|
+!i113 1
+R12
+vsynch_tb
+R1
+R71
+!i10b 1
+!s100 fKiESLb;>N1<1D?UWnA>e2
+ITVVYRDRz5@];T8igKIFn`2
+R3
+R112
+S1
+R0
+R113
+R114
+R115
+R68
+R8
+r1
+!s85 0
+31
+R9
+R116
+R117
+!i113 1
+R12
+vuser_input
+R1
+R71
+!i10b 1
+!s100 lTn2l]M``f]XT;FnZ@fY11
+ISFz=KT3=B1BeQOf932dVa2
+R3
+Z118 !s105 user_input_sv_unit
+S1
+R0
+Z119 w1780721101
+Z120 8./user_input.sv
+Z121 F./user_input.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R41
+Z122 !s107 ./user_input.sv|
+Z123 !s90 -reportprogress|300|./user_input.sv|
+!i113 1
+R12
+vuser_input_tb
+R1
+R71
+!i10b 1
+!s100 `X9P`MTU5:on<_O]O<OH@1
+IcGa>F6S^TkBaNNE>[S47c1
+R3
+R118
+S1
+R0
+R119
+R120
+R121
+L0 54
+R8
+r1
+!s85 0
+31
+R41
+R122
+R123
+!i113 1
+R12

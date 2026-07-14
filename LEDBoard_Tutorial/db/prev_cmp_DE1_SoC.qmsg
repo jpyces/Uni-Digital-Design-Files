@@ -1,0 +1,12 @@
+{ "Info" "0" "" "qar.tcl version #1" {  } {  } 0 0 "qar.tcl version #1" 0 0 "0" 0 0 1779914673312 ""}
+{ "Info" "0" "" "Including '-use_file_set basic' by default" {  } {  } 0 0 "Including '-use_file_set basic' by default" 0 0 "0" 0 0 1779914673799 ""}
+{ "Info" "0" "" "All project revisions will be stored in common archive DE1_SoC_tmp_archive.qar" {  } {  } 0 0 "All project revisions will be stored in common archive DE1_SoC_tmp_archive.qar" 0 0 "0" 0 0 1779914673799 ""}
+{ "Info" "0" "" "Initializing files for 'DE1_SoC' revision" {  } {  } 0 0 "Initializing files for 'DE1_SoC' revision" 0 0 "0" 0 0 1779914673862 ""}
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1779914673877 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1779914673877 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "0" 0 0 1779914673877 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "0" 0 0 1779914674066 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "Z:/Classes/CSE 369/Default/ " "Using common directory Z:/Classes/CSE 369/Default/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Design Software" 0 -1 1779914674081 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1779914674144 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1779914674144 ""}
+{ "Info" "0" "" "Generated archive 'DE1_SoC_tmp_archive.qar'" {  } {  } 0 0 "Generated archive 'DE1_SoC_tmp_archive.qar'" 0 0 "0" 0 0 1779914674144 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1779914674144 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1779914674144 ""}

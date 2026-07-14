@@ -1,0 +1,23 @@
+module LED_Board_Driver #(parameter MAX_LENGTH = 253) (
+	input logic game_rst,
+	input logic [3:0] apple_x, apple_y,
+	input logic [7:0] snake_array [0:255],
+	input logic [7:0] snake_len,
+	output logic [15:0][15:0] RedPixels, GreenPixels
+);
+	
+	always_comb begin
+		RedPixels[apple_x][apple_y] = 1;
+		
+		for (int i = 0; i < MAX_LENGTH; i++) begin
+			if (i < snake_len) begin
+				GreenPixels[snake_array[i][7:4], snake_array[i][3:0]] = 1;
+			end
+		end
+	end
+
+endmodule
+
+module LED_Board_Driver_tb ();
+
+endmodule

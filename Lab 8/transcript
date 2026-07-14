@@ -1,0 +1,1694 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab-user_input.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:14:43 on Jun 06,2026
+# vlog -reportprogress 300 ./user_input.sv 
+# -- Compiling module user_input
+# -- Compiling module user_input_tb
+# 
+# Top level modules:
+# 	user_input_tb
+# End time: 12:14:44 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:14:44 on Jun 06,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# -- Compiling module synch_tb
+# 
+# Top level modules:
+# 	synch_tb
+# End time: 12:14:44 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:14:44 on Jun 06,2026
+# vlog -reportprogress 300 ./pulse.sv 
+# -- Compiling module pulse
+# -- Compiling module pulse_tb
+# 
+# Top level modules:
+# 	pulse_tb
+# End time: 12:14:44 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work user_input_tb 
+# Start time: 12:14:46 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.user_input_tb
+# Loading work.user_input
+# Loading work.synch
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlft8aqnej".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8aqnej
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./user_input.sv(80)
+#    Time: 1850 ps  Iteration: 1  Instance: /user_input_tb
+# Break in Module user_input_tb at ./user_input.sv line 80
+do runlab-lfsr8bit.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:19:25 on Jun 06,2026
+# vlog -reportprogress 300 ./lfsr8bit.sv 
+# -- Compiling module lfsr8bit
+# -- Compiling module lfsr8bit_tb
+# 
+# Top level modules:
+# 	lfsr8bit_tb
+# End time: 12:19:25 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:19:27 on Jun 06,2026, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work lfsr8bit_tb 
+# Start time: 12:19:27 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.lfsr8bit_tb
+# Loading work.lfsr8bit
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftbb0men".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbb0men
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Cycle 1: Q = 00000010
+# Cycle 2: Q = 00000100
+# Cycle 3: Q = 00001000
+# Cycle 4: Q = 00010001
+# Cycle 5: Q = 00100011
+# Cycle 6: Q = 01000111
+# Cycle 7: Q = 10001110
+# Cycle 8: Q = 00011100
+# Cycle 9: Q = 00111000
+# Cycle 10: Q = 01110001
+# Cycle 11: Q = 11100010
+# Cycle 12: Q = 11000100
+# Cycle 13: Q = 10001001
+# Cycle 14: Q = 00010010
+# Cycle 15: Q = 00100101
+# Cycle 16: Q = 01001011
+# Cycle 17: Q = 10010111
+# Cycle 18: Q = 00101110
+# Cycle 19: Q = 01011100
+# Cycle 20: Q = 10111000
+# Cycle 21: Q = 01110000
+# Cycle 22: Q = 11100000
+# Cycle 23: Q = 11000000
+# Cycle 24: Q = 10000001
+# Cycle 25: Q = 00000011
+# Cycle 26: Q = 00000110
+# Cycle 27: Q = 00001100
+# Cycle 28: Q = 00011001
+# Cycle 29: Q = 00110010
+# Cycle 30: Q = 01100100
+# Cycle 31: Q = 11001001
+# Cycle 32: Q = 10010010
+# Cycle 33: Q = 00100100
+# Cycle 34: Q = 01001001
+# Cycle 35: Q = 10010011
+# Cycle 36: Q = 00100110
+# Cycle 37: Q = 01001101
+# Cycle 38: Q = 10011011
+# Cycle 39: Q = 00110111
+# Cycle 40: Q = 01101110
+# Cycle 41: Q = 11011100
+# Cycle 42: Q = 10111001
+# Cycle 43: Q = 01110010
+# Cycle 44: Q = 11100100
+# Cycle 45: Q = 11001000
+# Cycle 46: Q = 10010000
+# Cycle 47: Q = 00100000
+# Cycle 48: Q = 01000001
+# Cycle 49: Q = 10000010
+# Cycle 50: Q = 00000101
+# Cycle 51: Q = 00001010
+# Cycle 52: Q = 00010101
+# Cycle 53: Q = 00101011
+# Cycle 54: Q = 01010110
+# Cycle 55: Q = 10101101
+# Cycle 56: Q = 01011011
+# Cycle 57: Q = 10110110
+# Cycle 58: Q = 01101101
+# Cycle 59: Q = 11011010
+# Cycle 60: Q = 10110101
+# Cycle 61: Q = 01101011
+# Cycle 62: Q = 11010110
+# Cycle 63: Q = 10101100
+# Cycle 64: Q = 01011001
+# Cycle 65: Q = 10110010
+# Cycle 66: Q = 01100101
+# Cycle 67: Q = 11001011
+# Cycle 68: Q = 10010110
+# Cycle 69: Q = 00101100
+# Cycle 70: Q = 01011000
+# Cycle 71: Q = 10110000
+# Cycle 72: Q = 01100001
+# Cycle 73: Q = 11000011
+# Cycle 74: Q = 10000111
+# Cycle 75: Q = 00001111
+# Cycle 76: Q = 00011111
+# Cycle 77: Q = 00111110
+# Cycle 78: Q = 01111101
+# Cycle 79: Q = 11111011
+# Cycle 80: Q = 11110110
+# Cycle 81: Q = 11101101
+# Cycle 82: Q = 11011011
+# Cycle 83: Q = 10110111
+# Cycle 84: Q = 01101111
+# Cycle 85: Q = 11011110
+# Cycle 86: Q = 10111101
+# Cycle 87: Q = 01111010
+# Cycle 88: Q = 11110101
+# Cycle 89: Q = 11101011
+# Cycle 90: Q = 11010111
+# Cycle 91: Q = 10101110
+# Cycle 92: Q = 01011101
+# Cycle 93: Q = 10111010
+# Cycle 94: Q = 01110100
+# Cycle 95: Q = 11101000
+# Cycle 96: Q = 11010001
+# Cycle 97: Q = 10100010
+# Cycle 98: Q = 01000100
+# Cycle 99: Q = 10001000
+# Cycle 100: Q = 00010000
+# Cycle 101: Q = 00100001
+# Cycle 102: Q = 01000011
+# Cycle 103: Q = 10000110
+# Cycle 104: Q = 00001101
+# Cycle 105: Q = 00011011
+# Cycle 106: Q = 00110110
+# Cycle 107: Q = 01101100
+# Cycle 108: Q = 11011000
+# Cycle 109: Q = 10110001
+# Cycle 110: Q = 01100011
+# Cycle 111: Q = 11000111
+# Cycle 112: Q = 10001111
+# Cycle 113: Q = 00011110
+# Cycle 114: Q = 00111100
+# Cycle 115: Q = 01111001
+# Cycle 116: Q = 11110011
+# Cycle 117: Q = 11100111
+# Cycle 118: Q = 11001110
+# Cycle 119: Q = 10011100
+# Cycle 120: Q = 00111001
+# Cycle 121: Q = 01110011
+# Cycle 122: Q = 11100110
+# Cycle 123: Q = 11001100
+# Cycle 124: Q = 10011000
+# Cycle 125: Q = 00110001
+# Cycle 126: Q = 01100010
+# Cycle 127: Q = 11000101
+# Cycle 128: Q = 10001011
+# Cycle 129: Q = 00010110
+# Cycle 130: Q = 00101101
+# Cycle 131: Q = 01011010
+# Cycle 132: Q = 10110100
+# Cycle 133: Q = 01101001
+# Cycle 134: Q = 11010010
+# Cycle 135: Q = 10100100
+# Cycle 136: Q = 01001000
+# Cycle 137: Q = 10010001
+# Cycle 138: Q = 00100010
+# Cycle 139: Q = 01000101
+# Cycle 140: Q = 10001010
+# Cycle 141: Q = 00010100
+# Cycle 142: Q = 00101001
+# Cycle 143: Q = 01010010
+# Cycle 144: Q = 10100101
+# Cycle 145: Q = 01001010
+# Cycle 146: Q = 10010101
+# Cycle 147: Q = 00101010
+# Cycle 148: Q = 01010100
+# Cycle 149: Q = 10101001
+# Cycle 150: Q = 01010011
+# Cycle 151: Q = 10100111
+# Cycle 152: Q = 01001110
+# Cycle 153: Q = 10011101
+# Cycle 154: Q = 00111011
+# Cycle 155: Q = 01110111
+# Cycle 156: Q = 11101110
+# Cycle 157: Q = 11011101
+# Cycle 158: Q = 10111011
+# Cycle 159: Q = 01110110
+# Cycle 160: Q = 11101100
+# Cycle 161: Q = 11011001
+# Cycle 162: Q = 10110011
+# Cycle 163: Q = 01100111
+# Cycle 164: Q = 11001111
+# Cycle 165: Q = 10011110
+# Cycle 166: Q = 00111101
+# Cycle 167: Q = 01111011
+# Cycle 168: Q = 11110111
+# Cycle 169: Q = 11101111
+# Cycle 170: Q = 11011111
+# Cycle 171: Q = 10111111
+# Cycle 172: Q = 01111110
+# Cycle 173: Q = 11111101
+# Cycle 174: Q = 11111010
+# Cycle 175: Q = 11110100
+# Cycle 176: Q = 11101001
+# Cycle 177: Q = 11010011
+# Cycle 178: Q = 10100110
+# Cycle 179: Q = 01001100
+# Cycle 180: Q = 10011001
+# Cycle 181: Q = 00110011
+# Cycle 182: Q = 01100110
+# Cycle 183: Q = 11001101
+# Cycle 184: Q = 10011010
+# Cycle 185: Q = 00110101
+# Cycle 186: Q = 01101010
+# Cycle 187: Q = 11010100
+# Cycle 188: Q = 10101000
+# Cycle 189: Q = 01010001
+# Cycle 190: Q = 10100011
+# Cycle 191: Q = 01000110
+# Cycle 192: Q = 10001100
+# Cycle 193: Q = 00011000
+# Cycle 194: Q = 00110000
+# Cycle 195: Q = 01100000
+# Cycle 196: Q = 11000001
+# Cycle 197: Q = 10000011
+# Cycle 198: Q = 00000111
+# Cycle 199: Q = 00001110
+# Cycle 200: Q = 00011101
+# Cycle 201: Q = 00111010
+# Cycle 202: Q = 01110101
+# Cycle 203: Q = 11101010
+# Cycle 204: Q = 11010101
+# Cycle 205: Q = 10101010
+# Cycle 206: Q = 01010101
+# Cycle 207: Q = 10101011
+# Cycle 208: Q = 01010111
+# Cycle 209: Q = 10101111
+# Cycle 210: Q = 01011111
+# Cycle 211: Q = 10111110
+# Cycle 212: Q = 01111100
+# Cycle 213: Q = 11111001
+# Cycle 214: Q = 11110010
+# Cycle 215: Q = 11100101
+# Cycle 216: Q = 11001010
+# Cycle 217: Q = 10010100
+# Cycle 218: Q = 00101000
+# Cycle 219: Q = 01010000
+# Cycle 220: Q = 10100001
+# Cycle 221: Q = 01000010
+# Cycle 222: Q = 10000100
+# Cycle 223: Q = 00001001
+# Cycle 224: Q = 00010011
+# Cycle 225: Q = 00100111
+# Cycle 226: Q = 01001111
+# Cycle 227: Q = 10011111
+# Cycle 228: Q = 00111111
+# Cycle 229: Q = 01111111
+# Cycle 230: Q = 11111111
+# Cycle 231: Q = 11111110
+# Cycle 232: Q = 11111100
+# Cycle 233: Q = 11111000
+# Cycle 234: Q = 11110000
+# Cycle 235: Q = 11100001
+# Cycle 236: Q = 11000010
+# Cycle 237: Q = 10000101
+# Cycle 238: Q = 00001011
+# Cycle 239: Q = 00010111
+# Cycle 240: Q = 00101111
+# Cycle 241: Q = 01011110
+# Cycle 242: Q = 10111100
+# Cycle 243: Q = 01111000
+# Cycle 244: Q = 11110001
+# Cycle 245: Q = 11100011
+# Cycle 246: Q = 11000110
+# Cycle 247: Q = 10001101
+# Cycle 248: Q = 00011010
+# Cycle 249: Q = 00110100
+# Cycle 250: Q = 01101000
+# Cycle 251: Q = 11010000
+# Cycle 252: Q = 10100000
+# Cycle 253: Q = 01000000
+# Cycle 254: Q = 10000000
+# Cycle 255: Q = 00000001
+# State repreated at cycle 255
+# ** Note: $stop    : ./lfsr8bit.sv(62)
+#    Time: 25750 ps  Iteration: 1  Instance: /lfsr8bit_tb
+# Break in Module lfsr8bit_tb at ./lfsr8bit.sv line 62
+do runlab-lfsr8bit.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:19:59 on Jun 06,2026
+# vlog -reportprogress 300 ./lfsr8bit.sv 
+# -- Compiling module lfsr8bit
+# -- Compiling module lfsr8bit_tb
+# 
+# Top level modules:
+# 	lfsr8bit_tb
+# End time: 12:19:59 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:20:03 on Jun 06,2026, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work lfsr8bit_tb 
+# Start time: 12:20:03 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.lfsr8bit_tb
+# Loading work.lfsr8bit
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftheckb8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftheckb8
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Cycle 1: Q = 00000010
+# Cycle 2: Q = 00000100
+# Cycle 3: Q = 00001000
+# Cycle 4: Q = 00010001
+# Cycle 5: Q = 00100011
+# Cycle 6: Q = 01000111
+# Cycle 7: Q = 10001110
+# Cycle 8: Q = 00011100
+# Cycle 9: Q = 00111000
+# Cycle 10: Q = 01110001
+# Cycle 11: Q = 11100010
+# Cycle 12: Q = 11000100
+# Cycle 13: Q = 10001001
+# Cycle 14: Q = 00010010
+# Cycle 15: Q = 00100101
+# Cycle 16: Q = 01001011
+# Cycle 17: Q = 10010111
+# Cycle 18: Q = 00101110
+# Cycle 19: Q = 01011100
+# Cycle 20: Q = 10111000
+# Cycle 21: Q = 01110000
+# Cycle 22: Q = 11100000
+# Cycle 23: Q = 11000000
+# Cycle 24: Q = 10000001
+# Cycle 25: Q = 00000011
+# Cycle 26: Q = 00000110
+# Cycle 27: Q = 00001100
+# Cycle 28: Q = 00011001
+# Cycle 29: Q = 00110010
+# Cycle 30: Q = 01100100
+# Cycle 31: Q = 11001001
+# Cycle 32: Q = 10010010
+# Cycle 33: Q = 00100100
+# Cycle 34: Q = 01001001
+# Cycle 35: Q = 10010011
+# Cycle 36: Q = 00100110
+# Cycle 37: Q = 01001101
+# Cycle 38: Q = 10011011
+# Cycle 39: Q = 00110111
+# Cycle 40: Q = 01101110
+# Cycle 41: Q = 11011100
+# Cycle 42: Q = 10111001
+# Cycle 43: Q = 01110010
+# Cycle 44: Q = 11100100
+# Cycle 45: Q = 11001000
+# Cycle 46: Q = 10010000
+# Cycle 47: Q = 00100000
+# Cycle 48: Q = 01000001
+# Cycle 49: Q = 10000010
+# Cycle 50: Q = 00000101
+# Cycle 51: Q = 00001010
+# Cycle 52: Q = 00010101
+# Cycle 53: Q = 00101011
+# Cycle 54: Q = 01010110
+# Cycle 55: Q = 10101101
+# Cycle 56: Q = 01011011
+# Cycle 57: Q = 10110110
+# Cycle 58: Q = 01101101
+# Cycle 59: Q = 11011010
+# Cycle 60: Q = 10110101
+# Cycle 61: Q = 01101011
+# Cycle 62: Q = 11010110
+# Cycle 63: Q = 10101100
+# Cycle 64: Q = 01011001
+# Cycle 65: Q = 10110010
+# Cycle 66: Q = 01100101
+# Cycle 67: Q = 11001011
+# Cycle 68: Q = 10010110
+# Cycle 69: Q = 00101100
+# Cycle 70: Q = 01011000
+# Cycle 71: Q = 10110000
+# Cycle 72: Q = 01100001
+# Cycle 73: Q = 11000011
+# Cycle 74: Q = 10000111
+# Cycle 75: Q = 00001111
+# Cycle 76: Q = 00011111
+# Cycle 77: Q = 00111110
+# Cycle 78: Q = 01111101
+# Cycle 79: Q = 11111011
+# Cycle 80: Q = 11110110
+# Cycle 81: Q = 11101101
+# Cycle 82: Q = 11011011
+# Cycle 83: Q = 10110111
+# Cycle 84: Q = 01101111
+# Cycle 85: Q = 11011110
+# Cycle 86: Q = 10111101
+# Cycle 87: Q = 01111010
+# Cycle 88: Q = 11110101
+# Cycle 89: Q = 11101011
+# Cycle 90: Q = 11010111
+# Cycle 91: Q = 10101110
+# Cycle 92: Q = 01011101
+# Cycle 93: Q = 10111010
+# Cycle 94: Q = 01110100
+# Cycle 95: Q = 11101000
+# Cycle 96: Q = 11010001
+# Cycle 97: Q = 10100010
+# Cycle 98: Q = 01000100
+# Cycle 99: Q = 10001000
+# Cycle 100: Q = 00010000
+# Cycle 101: Q = 00100001
+# Cycle 102: Q = 01000011
+# Cycle 103: Q = 10000110
+# Cycle 104: Q = 00001101
+# Cycle 105: Q = 00011011
+# Cycle 106: Q = 00110110
+# Cycle 107: Q = 01101100
+# Cycle 108: Q = 11011000
+# Cycle 109: Q = 10110001
+# Cycle 110: Q = 01100011
+# Cycle 111: Q = 11000111
+# Cycle 112: Q = 10001111
+# Cycle 113: Q = 00011110
+# Cycle 114: Q = 00111100
+# Cycle 115: Q = 01111001
+# Cycle 116: Q = 11110011
+# Cycle 117: Q = 11100111
+# Cycle 118: Q = 11001110
+# Cycle 119: Q = 10011100
+# Cycle 120: Q = 00111001
+# Cycle 121: Q = 01110011
+# Cycle 122: Q = 11100110
+# Cycle 123: Q = 11001100
+# Cycle 124: Q = 10011000
+# Cycle 125: Q = 00110001
+# Cycle 126: Q = 01100010
+# Cycle 127: Q = 11000101
+# Cycle 128: Q = 10001011
+# Cycle 129: Q = 00010110
+# Cycle 130: Q = 00101101
+# Cycle 131: Q = 01011010
+# Cycle 132: Q = 10110100
+# Cycle 133: Q = 01101001
+# Cycle 134: Q = 11010010
+# Cycle 135: Q = 10100100
+# Cycle 136: Q = 01001000
+# Cycle 137: Q = 10010001
+# Cycle 138: Q = 00100010
+# Cycle 139: Q = 01000101
+# Cycle 140: Q = 10001010
+# Cycle 141: Q = 00010100
+# Cycle 142: Q = 00101001
+# Cycle 143: Q = 01010010
+# Cycle 144: Q = 10100101
+# Cycle 145: Q = 01001010
+# Cycle 146: Q = 10010101
+# Cycle 147: Q = 00101010
+# Cycle 148: Q = 01010100
+# Cycle 149: Q = 10101001
+# Cycle 150: Q = 01010011
+# Cycle 151: Q = 10100111
+# Cycle 152: Q = 01001110
+# Cycle 153: Q = 10011101
+# Cycle 154: Q = 00111011
+# Cycle 155: Q = 01110111
+# Cycle 156: Q = 11101110
+# Cycle 157: Q = 11011101
+# Cycle 158: Q = 10111011
+# Cycle 159: Q = 01110110
+# Cycle 160: Q = 11101100
+# Cycle 161: Q = 11011001
+# Cycle 162: Q = 10110011
+# Cycle 163: Q = 01100111
+# Cycle 164: Q = 11001111
+# Cycle 165: Q = 10011110
+# Cycle 166: Q = 00111101
+# Cycle 167: Q = 01111011
+# Cycle 168: Q = 11110111
+# Cycle 169: Q = 11101111
+# Cycle 170: Q = 11011111
+# Cycle 171: Q = 10111111
+# Cycle 172: Q = 01111110
+# Cycle 173: Q = 11111101
+# Cycle 174: Q = 11111010
+# Cycle 175: Q = 11110100
+# Cycle 176: Q = 11101001
+# Cycle 177: Q = 11010011
+# Cycle 178: Q = 10100110
+# Cycle 179: Q = 01001100
+# Cycle 180: Q = 10011001
+# Cycle 181: Q = 00110011
+# Cycle 182: Q = 01100110
+# Cycle 183: Q = 11001101
+# Cycle 184: Q = 10011010
+# Cycle 185: Q = 00110101
+# Cycle 186: Q = 01101010
+# Cycle 187: Q = 11010100
+# Cycle 188: Q = 10101000
+# Cycle 189: Q = 01010001
+# Cycle 190: Q = 10100011
+# Cycle 191: Q = 01000110
+# Cycle 192: Q = 10001100
+# Cycle 193: Q = 00011000
+# Cycle 194: Q = 00110000
+# Cycle 195: Q = 01100000
+# Cycle 196: Q = 11000001
+# Cycle 197: Q = 10000011
+# Cycle 198: Q = 00000111
+# Cycle 199: Q = 00001110
+# Cycle 200: Q = 00011101
+# Cycle 201: Q = 00111010
+# Cycle 202: Q = 01110101
+# Cycle 203: Q = 11101010
+# Cycle 204: Q = 11010101
+# Cycle 205: Q = 10101010
+# Cycle 206: Q = 01010101
+# Cycle 207: Q = 10101011
+# Cycle 208: Q = 01010111
+# Cycle 209: Q = 10101111
+# Cycle 210: Q = 01011111
+# Cycle 211: Q = 10111110
+# Cycle 212: Q = 01111100
+# Cycle 213: Q = 11111001
+# Cycle 214: Q = 11110010
+# Cycle 215: Q = 11100101
+# Cycle 216: Q = 11001010
+# Cycle 217: Q = 10010100
+# Cycle 218: Q = 00101000
+# Cycle 219: Q = 01010000
+# Cycle 220: Q = 10100001
+# Cycle 221: Q = 01000010
+# Cycle 222: Q = 10000100
+# Cycle 223: Q = 00001001
+# Cycle 224: Q = 00010011
+# Cycle 225: Q = 00100111
+# Cycle 226: Q = 01001111
+# Cycle 227: Q = 10011111
+# Cycle 228: Q = 00111111
+# Cycle 229: Q = 01111111
+# Cycle 230: Q = 11111111
+# Cycle 231: Q = 11111110
+# Cycle 232: Q = 11111100
+# Cycle 233: Q = 11111000
+# Cycle 234: Q = 11110000
+# Cycle 235: Q = 11100001
+# Cycle 236: Q = 11000010
+# Cycle 237: Q = 10000101
+# Cycle 238: Q = 00001011
+# Cycle 239: Q = 00010111
+# Cycle 240: Q = 00101111
+# Cycle 241: Q = 01011110
+# Cycle 242: Q = 10111100
+# Cycle 243: Q = 01111000
+# Cycle 244: Q = 11110001
+# Cycle 245: Q = 11100011
+# Cycle 246: Q = 11000110
+# Cycle 247: Q = 10001101
+# Cycle 248: Q = 00011010
+# Cycle 249: Q = 00110100
+# Cycle 250: Q = 01101000
+# Cycle 251: Q = 11010000
+# Cycle 252: Q = 10100000
+# Cycle 253: Q = 01000000
+# Cycle 254: Q = 10000000
+# Cycle 255: Q = 00000001
+# State repreated at cycle 255
+# ** Note: $stop    : ./lfsr8bit.sv(62)
+#    Time: 515 ps  Iteration: 1  Instance: /lfsr8bit_tb
+# Break in Module lfsr8bit_tb at ./lfsr8bit.sv line 62
+do runlab-synch.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:31 on Jun 06,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# -- Compiling module synch_tb
+# 
+# Top level modules:
+# 	synch_tb
+# End time: 12:37:31 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:37:32 on Jun 06,2026, Elapsed time: 0:17:29
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work synch_tb 
+# Start time: 12:37:33 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.synch_tb
+# Loading work.synch
+# ** Error: Cannot open macro file: synch_wave.do
+# Error in macro ./runlab-synch.do line 17
+# Cannot open macro file: synch_wave.do
+#     while executing
+# "do synch_wave.do"
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftkg7e4e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkg7e4e
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {Z:/Classes/CSE 369/Lab 8/synch_wave.do}
+do runlab-synch.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:58 on Jun 06,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# -- Compiling module synch_tb
+# 
+# Top level modules:
+# 	synch_tb
+# End time: 12:37:59 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:38:00 on Jun 06,2026, Elapsed time: 0:00:27
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work synch_tb 
+# Start time: 12:38:00 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.synch_tb
+# Loading work.synch
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftt1124q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt1124q
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./synch.sv(35)
+#    Time: 56 ps  Iteration: 0  Instance: /synch_tb
+# Break in Module synch_tb at ./synch.sv line 35
+do runlab-pulse.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:40:19 on Jun 06,2026
+# vlog -reportprogress 300 ./pulse.sv 
+# -- Compiling module pulse
+# -- Compiling module pulse_tb
+# 
+# Top level modules:
+# 	pulse_tb
+# End time: 12:40:19 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:21 on Jun 06,2026, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work pulse_tb 
+# Start time: 12:40:21 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.pulse_tb
+# Loading work.pulse
+# ** Error: Cannot open macro file: pulse_wave.do
+# Error in macro ./runlab-pulse.do line 17
+# Cannot open macro file: pulse_wave.do
+#     while executing
+# "do pulse_wave.do"
+add wave -position end  sim:/pulse_tb/clk
+add wave -position end  sim:/pulse_tb/rst
+add wave -position end  sim:/pulse_tb/in
+add wave -position end  sim:/pulse_tb/out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlft5s8vr6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5s8vr6
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {Z:/Classes/CSE 369/Lab 8/pulse_wave.do}
+do runlab-pulse.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:40:40 on Jun 06,2026
+# vlog -reportprogress 300 ./pulse.sv 
+# -- Compiling module pulse
+# -- Compiling module pulse_tb
+# 
+# Top level modules:
+# 	pulse_tb
+# End time: 12:40:40 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:42 on Jun 06,2026, Elapsed time: 0:00:21
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work pulse_tb 
+# Start time: 12:40:42 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.pulse_tb
+# Loading work.pulse
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlft8nrghn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8nrghn
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./pulse.sv(39)
+#    Time: 46 ps  Iteration: 0  Instance: /pulse_tb
+# Break in Module pulse_tb at ./pulse.sv line 39
+do runlab-leddo runlab-led_board_driver.do
+# Cannot open macro file: runlab-leddo
+do runlab-leddo runlab-led_board_driver.do
+# Cannot open macro file: runlab-leddo
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:40 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 12:52:40 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:52:42 on Jun 06,2026, Elapsed time: 0:12:00
+# Errors: 2, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work LED_Board_Driver_tb 
+# Start time: 12:52:42 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.LED_Board_Driver_tb
+# Loading work.LED_Board_Driver
+# ** Error: Cannot open macro file: LED_Board_Driver_wave.do
+# Error in macro ./runlab-led_board_driver.do line 17
+# Cannot open macro file: LED_Board_Driver_wave.do
+#     while executing
+# "do LED_Board_Driver_wave.do"
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftegr8re".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftegr8re
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {Z:/Classes/CSE 369/Lab 8/LED_Board_Driver_wave.do}
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:53:58 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 12:53:58 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:54:00 on Jun 06,2026, Elapsed time: 0:01:18
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work LED_Board_Driver_tb 
+# Start time: 12:54:00 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.LED_Board_Driver_tb
+# Loading work.LED_Board_Driver
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftdb1ymc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdb1ymc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Error: TC6 FAIL: pixels not cleared on game_rst
+#    Time: 4 ps  Scope: LED_Board_Driver_tb File: ./LED_Board_Driver.sv Line: 67
+# LED_Board_Driver_tb passed
+# ** Note: $stop    : ./LED_Board_Driver.sv(82)
+#    Time: 7 ps  Iteration: 0  Instance: /LED_Board_Driver_tb
+# Break in Module LED_Board_Driver_tb at ./LED_Board_Driver.sv line 82
+add wave -position 4  sim:/LED_Board_Driver_tb/snake_array[0]
+add wave -position 5  sim:/LED_Board_Driver_tb/snake_array[1]
+add wave -position 6  sim:/LED_Board_Driver_tb/snake_array[2]
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {Z:/Classes/CSE 369/Lab 8/LED_Board_Driver_wave.do}
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:54 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 12:57:54 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:57:57 on Jun 06,2026, Elapsed time: 0:03:57
+# Errors: 1, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work LED_Board_Driver_tb 
+# Start time: 12:57:57 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.LED_Board_Driver_tb
+# Loading work.LED_Board_Driver
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftay1f8a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftay1f8a
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Error: TC6 FAIL: pixels not cleared on game_rst
+#    Time: 4 ps  Scope: LED_Board_Driver_tb File: ./LED_Board_Driver.sv Line: 67
+# LED_Board_Driver_tb passed
+# ** Note: $stop    : ./LED_Board_Driver.sv(82)
+#    Time: 7 ps  Iteration: 0  Instance: /LED_Board_Driver_tb
+# Break in Module LED_Board_Driver_tb at ./LED_Board_Driver.sv line 82
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:52 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 13:02:52 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:56 on Jun 06,2026, Elapsed time: 0:04:59
+# Errors: 1, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work LED_Board_Driver_tb 
+# Start time: 13:02:56 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.LED_Board_Driver_tb
+# Loading work.LED_Board_Driver
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftx9mn8d".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx9mn8d
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# apple lit correctly! PASS
+# apple not lit in green! PASS
+# head lit in green! PASS
+# TC4 sentinel not lit PASS
+# TC5 - beyond snake_len NOT lit PASS
+# ** Error: TC6 FAIL: pixels not cleared on game_rst
+#    Time: 4 ps  Scope: LED_Board_Driver_tb File: ./LED_Board_Driver.sv Line: 67
+# TC7 - ALL BODY SEGMENTS LIT - PASS
+# TC8 - OVERLAP LIGHTING FOR SNAKE AND APPLE - PASS
+# LED_Board_Driver_tb finished
+# ** Note: $stop    : ./LED_Board_Driver.sv(82)
+#    Time: 7 ps  Iteration: 0  Instance: /LED_Board_Driver_tb
+# Break in Module LED_Board_Driver_tb at ./LED_Board_Driver.sv line 82
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:19 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(33): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: ./LED_Board_Driver.sv(43): Illegal declaration after the statement near line '35'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./LED_Board_Driver.sv(46): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(46): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 13:06:19 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab-led_board_driver.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./LED_Board_Driver.sv""
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:24 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(33): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: ./LED_Board_Driver.sv(43): Illegal declaration after the statement near line '35'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./LED_Board_Driver.sv(46): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(46): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 13:06:24 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab-led_board_driver.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./LED_Board_Driver.sv""
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:07:02 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# ** Error: ./LED_Board_Driver.sv(27): (vlog-2730) Undefined variable: 'apple_X'.
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(33): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: ./LED_Board_Driver.sv(43): Illegal declaration after the statement near line '35'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./LED_Board_Driver.sv(46): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(46): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 13:07:02 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab-led_board_driver.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./LED_Board_Driver.sv""
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:07:56 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(33): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: ./LED_Board_Driver.sv(43): Illegal declaration after the statement near line '35'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./LED_Board_Driver.sv(46): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) ./LED_Board_Driver.sv(46): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 13:07:56 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab-led_board_driver.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./LED_Board_Driver.sv""
+do runlab-led_board_driver.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:09:23 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 13:09:23 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:09:27 on Jun 06,2026, Elapsed time: 0:06:31
+# Errors: 30, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work LED_Board_Driver_tb 
+# Start time: 13:09:27 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.LED_Board_Driver_tb
+# Loading work.LED_Board_Driver
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlft9m5yvh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9m5yvh
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# apple lit correctly! PASS
+# apple not lit in green! PASS
+# head lit in green! PASS
+# TC4 sentinel not lit PASS
+# TC5 - beyond snake_len NOT lit PASS
+# TC6 - ALL BODY SEGMENTS LIT - PASS
+# TC7 - OVERQ - PASS
+# LED_Board_Driver_tb finished
+# ** Note: $stop    : ./LED_Board_Driver.sv(76)
+#    Time: 5 ps  Iteration: 0  Instance: /LED_Board_Driver_tb
+# Break in Module LED_Board_Driver_tb at ./LED_Board_Driver.sv line 76
+do runlab-lab8.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:45 on Jun 06,2026
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:26:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:45 on Jun 06,2026
+# vlog -reportprogress 300 ./lab8.sv 
+# -- Compiling module lab8
+# -- Compiling module lab8_tb
+# 
+# Top level modules:
+# 	lab8_tb
+# End time: 13:26:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:45 on Jun 06,2026
+# vlog -reportprogress 300 ./game_state.sv 
+# -- Compiling module game_state
+# -- Compiling module game_state_tb
+# 
+# Top level modules:
+# 	game_state_tb
+# End time: 13:26:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:45 on Jun 06,2026
+# vlog -reportprogress 300 ./snake.sv 
+# -- Compiling module snake
+# -- Compiling module snake_tb
+# 
+# Top level modules:
+# 	snake_tb
+# End time: 13:26:46 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:46 on Jun 06,2026
+# vlog -reportprogress 300 ./apple.sv 
+# -- Compiling module apple
+# -- Compiling module apple_tb
+# 
+# Top level modules:
+# 	apple_tb
+# End time: 13:26:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:46 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 13:26:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:46 on Jun 06,2026
+# vlog -reportprogress 300 ./game_tick_gen.sv 
+# -- Compiling module game_tick_gen
+# -- Compiling module game_tick_gen_tb
+# 
+# Top level modules:
+# 	game_tick_gen_tb
+# End time: 13:26:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:46 on Jun 06,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# -- Compiling module synch_tb
+# 
+# Top level modules:
+# 	synch_tb
+# End time: 13:26:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:46 on Jun 06,2026
+# vlog -reportprogress 300 ./lfsr8bit.sv 
+# -- Compiling module lfsr8bit
+# -- Compiling module lfsr8bit_tb
+# 
+# Top level modules:
+# 	lfsr8bit_tb
+# End time: 13:26:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:47 on Jun 06,2026
+# vlog -reportprogress 300 ./user_input.sv 
+# -- Compiling module user_input
+# -- Compiling module user_input_tb
+# 
+# Top level modules:
+# 	user_input_tb
+# End time: 13:26:47 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:47 on Jun 06,2026
+# vlog -reportprogress 300 ./nes_controller_driver.sv 
+# -- Compiling module nes_controller_driver
+# -- Compiling module nes_controller_driver_tb
+# 
+# Top level modules:
+# 	nes_controller_driver_tb
+# End time: 13:26:47 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:47 on Jun 06,2026
+# vlog -reportprogress 300 ./score_display.sv 
+# -- Compiling module score_display
+# -- Compiling module score_display_tb
+# 
+# Top level modules:
+# 	score_display_tb
+# End time: 13:26:47 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:47 on Jun 06,2026
+# vlog -reportprogress 300 ./hex_decoder.sv 
+# -- Compiling module hex_decoder
+# -- Compiling module hex_decoder_tb
+# 
+# Top level modules:
+# 	hex_decoder_tb
+# End time: 13:26:47 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:26:50 on Jun 06,2026, Elapsed time: 0:17:23
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab8_tb 
+# Start time: 13:26:50 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.lab8_tb
+# Loading work.lab8
+# Loading work.game_tick_gen
+# Loading work.user_input
+# Loading work.synch
+# Loading work.nes_controller_driver
+# Loading work.game_state
+# Loading work.snake
+# Loading work.apple
+# Loading work.lfsr8bit
+# Loading work.collision_detector
+# Loading work.LED_Board_Driver
+# Loading work.LEDDriver
+# Loading work.score_display
+# Loading work.hex_decoder
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 2
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 3
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 4
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 5
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 6
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 7
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./snake_game_wave.do line 8
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftarqxqg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftarqxqg
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/MAX_LENGTH'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/TB_CLK_FREQ'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/TB_TICKS_SEC'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/CYCLES_PER_TICK'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/CLOCK_PERIOD'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/CLOCK_50'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/test_id'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/SW[9]'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/TICK_SPEED'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/game_tick'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/game_rst'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/Snake_HEAD_x'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 21
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/Snake_HEAD_Y'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 22
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/TAIL_1_X'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 23
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/TAIL_1_Y'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 24
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/TAIL_2_X'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 25
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/TAIL_2_Y'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 26
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/snake_len'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 27
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/apple_x'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 28
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/apple_y'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 29
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/eaten'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 30
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/eaten_latch'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 31
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/suicide'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 32
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/board_edge'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 33
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/endGame'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 34
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/nes_data'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/nes_data_ff1'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 36
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/nes_buttons'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 37
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/nes_latch_out'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 38
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/nes_clock_out'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 39
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/nes_enable'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 40
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/ui/dir'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 41
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/sn/current_dir'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 42
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/RedPixels_comb'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 43
+# ** Error: (vish-4014) No objects found matching '/snake_game_tb/dut/GreenPixels_comb'.
+# Executing ONERROR command at macro ./snake_game_wave.do line 44
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# [TB_MARKER] TEST 0 (RESET) START @ 0 ps ps
+# [TB] After reset+1tick: len=3 head=(10,8)
+# [TB_MARKER] TEST 1 (Wall collision) START @ 203 ps ps
+# [TB] TEST 1: board_edge=1 endGame=0 after 6 extra ticks
+# [TB] TEST 1 PASS
+# [TB_MARKER] TEST 2 (Mid-game reset) START @ 1161 ps ps
+# [TB] TEST 2 PASS
+# [TB_MARKER] TEST 3 (Apple eating and growth) START @ 1173 ps ps
+# [TB] t=1749 ps dir=0001 expected=0001
+# [TB] After DOWN: head=(12,7) dir=0001
+# [TB] t=2261 ps dir=1000 expected=1000
+# [TB] After LEFT: head=(7,4) apple=(5,5) len=3 dir=1000
+# [TB] t=3541 ps dir=0010 expected=0010
+# [TB] After UP: head=(5,4) apple=(5,5) len=3 dir=0010
+# [TB] t=3797 ps dir=0100 expected=0100
+# [TB_MARKER] TEST 4 (NES enable divider) START @ 4895 ps ps
+# [TB] TEST 4: 128 enable pulses in 256 cycles (expected 128)
+# [TB] TEST 4 PASS
+# [TB_MARKER] TEST 5 (180-degree reversal blocked) START @ 5611 ps ps
+# [TB] TEST 5: before LEFT, dir=0000 head_x=10
+# [TB] TEST 5: x_before=10 x_after=13 dir=1000
+# [TB] TEST 5 PASS
+# [TB_MARKER] TEST 6 (Switch tick speed) START @ 6453 ps ps
+# [TB] TEST 6a: SW=80 period=100 cycles (expected 100)
+# [TB] TEST 6b: SW=40 period=200 cycles (expected 200)
+# [TB] TEST 6c: SW=0 period=80 cycles (expected 80)
+# [TB] TEST 6 PASS
+# ** Note: $stop    : ./lab8.sv(733)
+#    Time: 8173 ps  Iteration: 2  Instance: /lab8_tb
+# Break in Module lab8_tb at ./lab8.sv line 733
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {Z:/Classes/CSE 369/Lab 8/lab8_wave.do}
+do runlab-lab8.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:43 on Jun 06,2026
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:27:43 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:43 on Jun 06,2026
+# vlog -reportprogress 300 ./lab8.sv 
+# -- Compiling module lab8
+# -- Compiling module lab8_tb
+# 
+# Top level modules:
+# 	lab8_tb
+# End time: 13:27:44 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:44 on Jun 06,2026
+# vlog -reportprogress 300 ./game_state.sv 
+# -- Compiling module game_state
+# -- Compiling module game_state_tb
+# 
+# Top level modules:
+# 	game_state_tb
+# End time: 13:27:44 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:44 on Jun 06,2026
+# vlog -reportprogress 300 ./snake.sv 
+# -- Compiling module snake
+# -- Compiling module snake_tb
+# 
+# Top level modules:
+# 	snake_tb
+# End time: 13:27:44 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:44 on Jun 06,2026
+# vlog -reportprogress 300 ./apple.sv 
+# -- Compiling module apple
+# -- Compiling module apple_tb
+# 
+# Top level modules:
+# 	apple_tb
+# End time: 13:27:45 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:45 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 13:27:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:45 on Jun 06,2026
+# vlog -reportprogress 300 ./game_tick_gen.sv 
+# -- Compiling module game_tick_gen
+# -- Compiling module game_tick_gen_tb
+# 
+# Top level modules:
+# 	game_tick_gen_tb
+# End time: 13:27:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:45 on Jun 06,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# -- Compiling module synch_tb
+# 
+# Top level modules:
+# 	synch_tb
+# End time: 13:27:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:45 on Jun 06,2026
+# vlog -reportprogress 300 ./lfsr8bit.sv 
+# -- Compiling module lfsr8bit
+# -- Compiling module lfsr8bit_tb
+# 
+# Top level modules:
+# 	lfsr8bit_tb
+# End time: 13:27:45 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:45 on Jun 06,2026
+# vlog -reportprogress 300 ./user_input.sv 
+# -- Compiling module user_input
+# -- Compiling module user_input_tb
+# 
+# Top level modules:
+# 	user_input_tb
+# End time: 13:27:46 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:46 on Jun 06,2026
+# vlog -reportprogress 300 ./nes_controller_driver.sv 
+# -- Compiling module nes_controller_driver
+# -- Compiling module nes_controller_driver_tb
+# 
+# Top level modules:
+# 	nes_controller_driver_tb
+# End time: 13:27:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:46 on Jun 06,2026
+# vlog -reportprogress 300 ./score_display.sv 
+# -- Compiling module score_display
+# -- Compiling module score_display_tb
+# 
+# Top level modules:
+# 	score_display_tb
+# End time: 13:27:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:46 on Jun 06,2026
+# vlog -reportprogress 300 ./hex_decoder.sv 
+# -- Compiling module hex_decoder
+# -- Compiling module hex_decoder_tb
+# 
+# Top level modules:
+# 	hex_decoder_tb
+# End time: 13:27:46 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:27:50 on Jun 06,2026, Elapsed time: 0:01:00
+# Errors: 119, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab8_tb 
+# Start time: 13:27:50 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.lab8_tb
+# Loading work.lab8
+# Loading work.game_tick_gen
+# Loading work.user_input
+# Loading work.synch
+# Loading work.nes_controller_driver
+# Loading work.game_state
+# Loading work.snake
+# Loading work.apple
+# Loading work.lfsr8bit
+# Loading work.collision_detector
+# Loading work.LED_Board_Driver
+# Loading work.LEDDriver
+# Loading work.score_display
+# Loading work.hex_decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlft5eky3z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5eky3z
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# [TB_MARKER] TEST 0 (RESET) START @ 0 ps ps
+# [TB] After reset+1tick: len=3 head=(10,8)
+# [TB_MARKER] TEST 1 (Wall collision) START @ 203 ps ps
+# [TB] TEST 1: board_edge=1 endGame=0 after 6 extra ticks
+# [TB] TEST 1 PASS
+# [TB_MARKER] TEST 2 (Mid-game reset) START @ 1161 ps ps
+# [TB] TEST 2 PASS
+# [TB_MARKER] TEST 3 (Apple eating and growth) START @ 1173 ps ps
+# [TB] t=1749 ps dir=0001 expected=0001
+# [TB] After DOWN: head=(12,7) dir=0001
+# [TB] t=2261 ps dir=1000 expected=1000
+# [TB] After LEFT: head=(7,4) apple=(5,5) len=3 dir=1000
+# [TB] t=3541 ps dir=0010 expected=0010
+# [TB] After UP: head=(5,4) apple=(5,5) len=3 dir=0010
+# [TB] t=3797 ps dir=0100 expected=0100
+# [TB_MARKER] TEST 4 (NES enable divider) START @ 4895 ps ps
+# [TB] TEST 4: 128 enable pulses in 256 cycles (expected 128)
+# [TB] TEST 4 PASS
+# [TB_MARKER] TEST 5 (180-degree reversal blocked) START @ 5611 ps ps
+# [TB] TEST 5: before LEFT, dir=0000 head_x=10
+# [TB] TEST 5: x_before=10 x_after=13 dir=1000
+# [TB] TEST 5 PASS
+# [TB_MARKER] TEST 6 (Switch tick speed) START @ 6453 ps ps
+# [TB] TEST 6a: SW=80 period=100 cycles (expected 100)
+# [TB] TEST 6b: SW=40 period=200 cycles (expected 200)
+# [TB] TEST 6c: SW=0 period=80 cycles (expected 80)
+# [TB] TEST 6 PASS
+# ** Note: $stop    : ./lab8.sv(733)
+#    Time: 8173 ps  Iteration: 2  Instance: /lab8_tb
+# Break in Module lab8_tb at ./lab8.sv line 733
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {Z:/Classes/CSE 369/Lab 8/lab8_wave.do}
+do runlab-snake_module.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:51 on Jun 06,2026
+# vlog -reportprogress 300 ./snake.sv 
+# -- Compiling module snake
+# -- Compiling module snake_tb
+# 
+# Top level modules:
+# 	snake_tb
+# End time: 13:40:51 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:54 on Jun 06,2026, Elapsed time: 0:13:04
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work snake_tb 
+# Start time: 13:40:54 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.snake_tb
+# Loading work.snake
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlftffk62y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftffk62y
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# --- Reset Released ---
+# Time=550 | Len=3 | Head=(9,8)
+# Time=950 | Moving Right | Head=(11,8) | Body1=(10,8)
+# Time=1350 | Food Eaten!  | New Len=4 | Head=(13,8)
+# Time=1550 | Turned UP    | Head=(14,8) | Body1=(13,8)
+# ** Note: $stop    : ./snake.sv(168)
+#    Time: 1550 ps  Iteration: 1  Instance: /snake_tb
+# Break in Module snake_tb at ./snake.sv line 168
+do runlab-lab8.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:04 on Jun 06,2026
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:42:04 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:04 on Jun 06,2026
+# vlog -reportprogress 300 ./lab8.sv 
+# -- Compiling module lab8
+# -- Compiling module lab8_tb
+# 
+# Top level modules:
+# 	lab8_tb
+# End time: 13:42:04 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:04 on Jun 06,2026
+# vlog -reportprogress 300 ./game_state.sv 
+# -- Compiling module game_state
+# -- Compiling module game_state_tb
+# 
+# Top level modules:
+# 	game_state_tb
+# End time: 13:42:04 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:04 on Jun 06,2026
+# vlog -reportprogress 300 ./snake.sv 
+# -- Compiling module snake
+# -- Compiling module snake_tb
+# 
+# Top level modules:
+# 	snake_tb
+# End time: 13:42:05 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:05 on Jun 06,2026
+# vlog -reportprogress 300 ./apple.sv 
+# -- Compiling module apple
+# -- Compiling module apple_tb
+# 
+# Top level modules:
+# 	apple_tb
+# End time: 13:42:05 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:05 on Jun 06,2026
+# vlog -reportprogress 300 ./LED_Board_Driver.sv 
+# -- Compiling module LED_Board_Driver
+# -- Compiling module LED_Board_Driver_tb
+# 
+# Top level modules:
+# 	LED_Board_Driver_tb
+# End time: 13:42:05 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:05 on Jun 06,2026
+# vlog -reportprogress 300 ./game_tick_gen.sv 
+# -- Compiling module game_tick_gen
+# -- Compiling module game_tick_gen_tb
+# 
+# Top level modules:
+# 	game_tick_gen_tb
+# End time: 13:42:05 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:05 on Jun 06,2026
+# vlog -reportprogress 300 ./synch.sv 
+# -- Compiling module synch
+# -- Compiling module synch_tb
+# 
+# Top level modules:
+# 	synch_tb
+# End time: 13:42:06 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:06 on Jun 06,2026
+# vlog -reportprogress 300 ./lfsr8bit.sv 
+# -- Compiling module lfsr8bit
+# -- Compiling module lfsr8bit_tb
+# 
+# Top level modules:
+# 	lfsr8bit_tb
+# End time: 13:42:06 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:06 on Jun 06,2026
+# vlog -reportprogress 300 ./user_input.sv 
+# -- Compiling module user_input
+# -- Compiling module user_input_tb
+# 
+# Top level modules:
+# 	user_input_tb
+# End time: 13:42:06 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:06 on Jun 06,2026
+# vlog -reportprogress 300 ./nes_controller_driver.sv 
+# -- Compiling module nes_controller_driver
+# -- Compiling module nes_controller_driver_tb
+# 
+# Top level modules:
+# 	nes_controller_driver_tb
+# End time: 13:42:06 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:06 on Jun 06,2026
+# vlog -reportprogress 300 ./score_display.sv 
+# -- Compiling module score_display
+# -- Compiling module score_display_tb
+# 
+# Top level modules:
+# 	score_display_tb
+# End time: 13:42:06 on Jun 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:06 on Jun 06,2026
+# vlog -reportprogress 300 ./hex_decoder.sv 
+# -- Compiling module hex_decoder
+# -- Compiling module hex_decoder_tb
+# 
+# Top level modules:
+# 	hex_decoder_tb
+# End time: 13:42:07 on Jun 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:42:11 on Jun 06,2026, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab8_tb 
+# Start time: 13:42:11 on Jun 06,2026
+# Loading sv_std.std
+# Loading work.lab8_tb
+# Loading work.lab8
+# Loading work.game_tick_gen
+# Loading work.user_input
+# Loading work.synch
+# Loading work.nes_controller_driver
+# Loading work.game_state
+# Loading work.snake
+# Loading work.apple
+# Loading work.lfsr8bit
+# Loading work.collision_detector
+# Loading work.LED_Board_Driver
+# Loading work.LEDDriver
+# Loading work.score_display
+# Loading work.hex_decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: advik  Hostname: WHITEHORSE  ProcessID: 3004
+#           Attempting to use alternate WLF file "./wlft4yg3tg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4yg3tg
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# [TB_MARKER] TEST 0 (RESET) START @ 0 ps ps
+# [TB] After reset+1tick: len=3 head=(10,8)
+# [TB_MARKER] TEST 1 (Wall collision) START @ 203 ps ps
+# [TB] TEST 1: board_edge=1 endGame=0 after 6 extra ticks
+# [TB] TEST 1 PASS
+# [TB_MARKER] TEST 2 (Mid-game reset) START @ 1161 ps ps
+# [TB] TEST 2 PASS
+# [TB_MARKER] TEST 3 (Apple eating and growth) START @ 1173 ps ps
+# [TB] t=1749 ps dir=0001 expected=0001
+# [TB] After DOWN: head=(12,7) dir=0001
+# [TB] t=2261 ps dir=1000 expected=1000
+# [TB] After LEFT: head=(7,4) apple=(5,5) len=3 dir=1000
+# [TB] t=3541 ps dir=0010 expected=0010
+# [TB] After UP: head=(5,4) apple=(5,5) len=3 dir=0010
+# [TB] t=3797 ps dir=0100 expected=0100
+# [TB_MARKER] TEST 4 (NES enable divider) START @ 4895 ps ps
+# [TB] TEST 4: 128 enable pulses in 256 cycles (expected 128)
+# [TB] TEST 4 PASS
+# [TB_MARKER] TEST 5 (180-degree reversal blocked) START @ 5611 ps ps
+# [TB] TEST 5: before LEFT, dir=0000 head_x=10
+# [TB] TEST 5: x_before=10 x_after=13 dir=1000
+# [TB] TEST 5 PASS
+# [TB_MARKER] TEST 6 (Switch tick speed) START @ 6453 ps ps
+# [TB] TEST 6a: SW=80 period=100 cycles (expected 100)
+# [TB] TEST 6b: SW=40 period=200 cycles (expected 200)
+# [TB] TEST 6c: SW=0 period=80 cycles (expected 80)
+# [TB] TEST 6 PASS
+# ** Note: $stop    : ./lab8.sv(733)
+#    Time: 8173 ps  Iteration: 2  Instance: /lab8_tb
+# Break in Module lab8_tb at ./lab8.sv line 733

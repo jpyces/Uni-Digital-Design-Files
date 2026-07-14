@@ -1,0 +1,11 @@
+module counter3bit (
+	input logic clk, rst, win,
+	output logic [2:0] count
+)
+
+	always_ff @(posedge clk) begin
+		if (rst)
+			count <= 3'b000;
+		else if (win)
+			count <= count + 1;
+endmodule
